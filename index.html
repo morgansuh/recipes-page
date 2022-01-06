@@ -6,19 +6,84 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .center {
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      width: 50%;
+    }
+
+
+    .snicker-txt {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .banana-txt {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+
+      white-space: nowrap;
+    }
+
+    body {
+      background-color: #EDE3E9
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Recipes Tried & Tested by Me</h1>
+  <!--header-->
+  <h1 style="color:#413C58 ;font-family:Georgia, 'Times New Roman', Times, serif">
+    <center>Recipes: Tried & Tested</center>
+  </h1>
+  <!--header pic-->
   <img src="images/BearChef.png" style="object-fit:contain;
   width:600px;
-  height:370px; " />
-  <ul>
-    <li><a href="./recipes/Snickerdoodle.html">Snickerdoodle Recipe</a></li>
-    <li><a href="./recipes/bananamuffin.html">Banana Muffin Recipe</a></li>
-    <li><a href="./recipes/chocolatemarblepoundcake.html">Chocolate Marble Pound Cake</a></li>
-  </ul>
+  height:370px; " class="center" />
 
+
+  <!--snickerdoodle pic link-->
+
+  <div class=" center">
+    <a href="./recipes/Snickerdoodle.html"> <img src="images/snickerdoodlecookie.JPG" style="
+  width:400px;
+  height:270px;"> </a>
+    <h3 class="snicker-txt" style="color:#413C58 ;font-family:Georgia, 'Times New Roman', Times, serif">
+      Snickedoodle Cookie Recipe
+    </h3>
+  </div>
+
+
+  <!--Banana muffin pic link -->
+  <div class="center">
+    <a href="./recipes/bananamuffin.html"> <img src="images/BananaMuffins.png" style="
+  width:400px;
+  height:270px;"> </a>
+    <h3 class="banana-txt" style="color:#413C58 ;font-family:Georgia, 'Times New Roman', Times, serif">
+      Banana Muffin Recipe
+    </h3>
+  </div>
+
+
+
+  <!--Marble bread pic link
+  <a href="./recipes/chocolatemarblepoundcake.html">
+    <div style="object-fit:contain;
+    width:400px;
+    height:270px; ">
+      <img src="images/MarbleBread.png" style="position:absolute;
+    width:400px;
+    height:270px;
+    bottom:40px;
+    left:30px;">
+    </div>
+  </a>
+-->
 </body>
 
 </html>
