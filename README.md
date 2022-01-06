@@ -1,2 +1,2 @@
 # recipes-page
-Recipes website
+Simple website with recipes
